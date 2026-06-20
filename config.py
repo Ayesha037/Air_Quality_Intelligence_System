@@ -1,18 +1,19 @@
 import os
 from dotenv import load_dotenv
+import streamlit as st
 
-load_dotenv()
-
-API_KEY = os.getenv("API_KEY")
+try:
+    API_KEY = st.secrets["API_KEY"]
+    cities_str = st.secrets.get("CITIES", "delhi,mumbai,bangalore")
+except:
+  
+    load_dotenv()
+    API_KEY = os.getenv("API_KEY")
+    cities_str = os.getenv("CITIES", "delhi,mumbai,bangalore")
 
 BASE_URL = "https://api.waqi.info/feed"
 
-cities_str = os.getenv("CITIES", "delhi,mumbai,bangalore")
 CITIES = [city.strip() for city in cities_str.split(",")]
 
-if API_KEY:
-    print(f"✅ API Key loaded: {API_KEY[:20]}...")
-else:
-    print("❌ No API Key found in .env file!")
-
+print(f"✅ API Key loaded")
 print(f"✅ Loaded {len(CITIES)} cities")

@@ -1,7 +1,5 @@
 # India Air Quality Intelligence System
 
-## Live Dashboard
-[Click here to view live dashboard](https://india-air-quality-intelligence-6aeqhy5zvtquu4opwf4gyh.streamlit.app/)
 
 ## What it does
 - Fetches live AQI data from WAQI Government API

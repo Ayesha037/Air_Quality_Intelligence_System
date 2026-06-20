@@ -257,25 +257,6 @@ python main.py
 - **Data Processing:** < 5 seconds for 200+ cities
 - **Memory Usage:** < 500MB
 - **Uptime:** 99.9% (Streamlit Cloud)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-```bash
-# 1. Fork the repository
-# 2. Create your feature branch
-git checkout -b feature/AmazingFeature
-
-# 3. Commit changes
-git commit -m "Add AmazingFeature"
-
-# 4. Push to branch
-git push origin feature/AmazingFeature
-
-# 5. Open a Pull Request
 ```
 
 ### **Dashboard Features**
@@ -312,30 +293,6 @@ git push origin feature/AmazingFeature
 - **Response Time:** < 10 seconds
 - **Lines of Code:** 1000+
 - **Dependencies:** 6 core packages
-
----
-
-## 🌟 Highlights
-
-✨ **Production-Grade System**
-- Robust error handling
-- Data validation at each step
-- Scalable architecture
-
-✨ **User-Friendly Interface**
-- Interactive Streamlit dashboard
-- Color-coded alerts
-- Professional Excel reports
-
-✨ **Data-Driven Insights**
-- Intelligent health scoring
-- Trend analysis
-- Actionable recommendations
-
-✨ **Easy Deployment**
-- One-click Streamlit Cloud deploy
-- Docker support
-- Configurable for any region
 
 ---
 
